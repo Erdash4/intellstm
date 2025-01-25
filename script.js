@@ -1,3 +1,5 @@
+const lstm = new brain.recurrent.LSTM()
+
 function load() {
   const fileInput = document.getElementById("fileInput")
   if (!fileInput.files.length) {
